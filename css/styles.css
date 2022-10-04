@@ -1,15 +1,14 @@
 :root {
     --main-font: 'Roboto', sans-serif;
+    --blacklish: color: 212121;
+}
 
+body {
+    font-family: var(--main-font);
 }
 
 ul {
     list-style: none;
-}
-
-
-.cleart {
-    text-decoration: none;
 }
 
 h1,
@@ -34,15 +33,17 @@ img {
     display: block;
 }
 
-body {
-    font-family: var(--main-font);
-}
+
 
 .container {
     width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
+}
+
+.cleart {
+    text-decoration: none;
 }
 
 /* ----------HEADER------ */
