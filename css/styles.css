@@ -1,6 +1,7 @@
 :root {
     --main-font: 'Roboto', sans-serif;
     --blacklish: color: 212121;
+    --darkish: color 757575
 }
 
 body {
@@ -47,6 +48,8 @@ img {
 }
 
 /* ----------HEADER------ */
+
+/* ------menu-item---- */
 .header {
     padding-top: 24px;
     padding-bottom: 25px;
@@ -70,6 +73,10 @@ img {
 .menu-item:not(:last-child) {
     margin-right: 50px;
 }
+
+/* ------menu-item-end----- */
+
+/* -------logo------ */
 
 .header-link {
     display: flex;
@@ -104,6 +111,9 @@ img {
     color: #2196F3;
 }
 
+/* ----------logo-end-------- */
+
+/* ----------Contact--------- */
 
 .menu-link {
     font-weight: 500;
@@ -133,9 +143,28 @@ img {
     color: #2196F3;
 }
 
+/* ------contact-end---- */
+
 /* -----END HEADER----- */
 
 /* ------- HERO------ */
+
+.hero {
+    height: 600px;
+    padding-top: 15px;
+    margin: 0;
+    background: #2F303A;
+}
+
+
+.heroic {
+    margin: auto;
+}
+
+.modal-btn {
+    margin: auto;
+
+}
 
 .hero-title {
     font-weight: 900;
@@ -144,10 +173,11 @@ img {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: FFFFFF;
+    color: #FFFFFF;
+    width: 696px;
+    height: 120px;
 }
 
-/*  поменять на белый */
 .modal-btn {
     font-weight: 700;
     font-size: 16px;
@@ -159,6 +189,10 @@ img {
     cursor: pointer;
     color: FFFFFF;
 }
+
+/* -----hero-end---- */
+
+/* -----peculiarty---- */
 
 .list-peculiarity {
     font-weight: 700;
@@ -177,7 +211,11 @@ img {
     color: #757575;
 }
 
-.tasks {
+/* -----peculiarty-end---- */
+
+/* -----tasks--- */
+
+.our-tasks {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -186,7 +224,11 @@ img {
     color: #212121;
 }
 
-.team {
+/* -----tasks-end---- */
+
+/* -----team---- */
+
+.our-team {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -212,6 +254,8 @@ img {
     letter-spacing: 0.03em;
     color: #757575;
 }
+
+/* ----team-end---- */
 
 /* -----END HERO */
 
@@ -241,7 +285,7 @@ img {
     font-size: 14px;
     line-height: 1.70;
     letter-spacing: 0.03em;
-    color: FFFFFF;
+    /* color: FFFFFF; поменять цвет */
     /* поменять цвет */
 }
 
@@ -250,8 +294,7 @@ img {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: gba(255, 255, 255, 0.6)
-        /* поменять цвет */
+    /* color: rgba(255, 255, 255, 0.6) поменять цвет */
 }
 
 .link-footer:hover,
