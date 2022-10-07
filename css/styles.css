@@ -47,6 +47,10 @@ img {
     text-decoration: none;
 }
 
+.section {
+    padding: 94px;
+}
+
 /* ----------HEADER------ */
 
 /* ------menu-item---- */
@@ -85,9 +89,7 @@ img {
 
 }
 
-.link-header {
-    margin-right: 50px;
-}
+
 
 .logo {
     margin-right: 92px;
@@ -121,12 +123,19 @@ img {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
-    ;
 }
 
 .menu-link:hover,
 .menu-link:focus {
     color: #2196F3;
+}
+
+.link-header {
+    margin-right: 50px;
+}
+
+.link-header {
+    margin-right: 50px;
 }
 
 .link-header {
@@ -149,20 +158,26 @@ img {
 
 /* ------- HERO------ */
 
+
 .hero {
     height: 600px;
-    padding-top: 15px;
-    margin: 0;
     background: #2F303A;
+
 }
 
-
 .heroic {
-    margin: auto;
+    width: 1600px;
+    padding: 200px 0 280px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    margin: 0 auto;
 }
 
 .modal-btn {
-    margin: auto;
+    margin: 0 auto;
+
 
 }
 
@@ -187,12 +202,36 @@ img {
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
-    color: FFFFFF;
+    color: #FFFFFF;
+
+}
+
+.modal-btn {
+    padding: 10px 32px;
+    margin-top: 30px;
+    background: #2196F3;
+    border-radius: 4px;
+    border: none;
 }
 
 /* -----hero-end---- */
 
 /* -----peculiarty---- */
+
+.pecul {
+    width: 1170px;
+    height: 101px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.menu-peculiarity {
+    display: flex;
+    flex-direction: row;
+    justify-content:
+}
 
 .list-peculiarity {
     font-weight: 700;
@@ -201,6 +240,10 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
+}
+
+.list-peculiarity {
+    margin-bottom: 10px;
 }
 
 .text-peculiarity {
@@ -215,6 +258,31 @@ img {
 
 /* -----tasks--- */
 
+.tasks {
+    width: 1170px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+.our-tasks {
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.menu-tasks {
+    display: flex;
+    flex-wrap: wrap;
+
+    /* margin-left: -30px;
+    margin-top: -30px; */
+}
+
+.img-tasks {
+    /* margin-left: 30px;
+    margin-top: 30px; */
+}
+
 .our-tasks {
     font-weight: 700;
     font-size: 36px;
@@ -224,9 +292,19 @@ img {
     color: #212121;
 }
 
+.list-tasks {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: calc((100%-90px) / 3);
+}
+
+
+
 /* -----tasks-end---- */
 
 /* -----team---- */
+
+
 
 .our-team {
     font-weight: 700;
