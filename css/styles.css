@@ -397,7 +397,7 @@ img {
     padding-top: 20px;
 }
 
-.list-footer {
+.list-footer:not(:last-child) {
     margin: 10px;
 }
 
