@@ -230,7 +230,6 @@ img {
 .menu-peculiarity {
     display: flex;
     flex-direction: row;
-    justify-content:
 }
 
 .list-peculiarity {
@@ -303,17 +302,22 @@ img {
 
 .team {
     background-color: #F5F4FA;
-    width: 1600px;
+    height: 460px;
     padding-right: 15px;
     padding-left: 15px;
+    display: flex;
+    align-items: center;
     margin: 0 auto;
 }
 
+
 .div-team {
     width: 1170px;
-    /* padding-right: 15px;
-    padding-left: 15px; */
-
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    padding-bottom: 94px;
+    padding-top: 186px;
 }
 
 .list-team {
@@ -321,13 +325,15 @@ img {
     /* flex-basis: calc((100%-1200px) / 4); */
 }
 
+
 .menu-team {
     display: flex;
     flex-wrap: wrap;
     margin-top: -30px;
     margin-left: -30px;
-
 }
+
+
 
 .img-team {
     margin-top: 30px;
@@ -345,7 +351,6 @@ img {
 
 .our-team {
     margin-bottom: 50px;
-    width: 1170px;
 }
 
 .name-team {
@@ -372,14 +377,37 @@ img {
 
 /* -----FOOTER----- */
 
+.footer {
+    background-color: #2F303A;
+    height: 252px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.div-footer {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.menu-footer {
+    padding-top: 20px;
+}
+
+.list-footer {
+    margin: 10px;
+}
+
 .logo-footer {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.20;
     letter-spacing: 0.03em;
-    color: FFFFFF;
-    /*  ПОМЕНЯТЬ ЦВЕТ */
+    color: #FFFFFF;
 }
 
 .logo-finish {
@@ -396,8 +424,8 @@ img {
     font-size: 14px;
     line-height: 1.70;
     letter-spacing: 0.03em;
-    /* color: FFFFFF; поменять цвет */
-    /* поменять цвет */
+    color: #FFFFFF;
+
 }
 
 .link-footer {
@@ -405,7 +433,7 @@ img {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    /* color: rgba(255, 255, 255, 0.6) поменять цвет */
+    color: rgba(255, 255, 255, 0.6)
 }
 
 .link-footer:hover,
