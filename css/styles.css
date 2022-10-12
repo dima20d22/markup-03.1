@@ -6,6 +6,7 @@
 
 body {
     font-family: var(--main-font);
+    margin: 0;
 }
 
 ul {
@@ -34,10 +35,8 @@ img {
     display: block;
 }
 
-
-
 .container {
-    width: 1200px;
+    width: 1170px;
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
@@ -47,8 +46,8 @@ img {
     text-decoration: none;
 }
 
-.section {
-    padding: 94px;
+section {
+    padding: 94px 0;
 }
 
 /* ----------HEADER------ */
@@ -163,12 +162,12 @@ img {
 .hero {
     /* height: 600px; */
     background: #2F303A;
+    padding: 200px 0 280px;
 
 }
 
 .heroic {
-    width: 1600px;
-    padding: 200px 0 280px;
+    width: 696px;
     margin: 0 auto;
 }
 
@@ -219,14 +218,11 @@ img {
 
 /* -----peculiarty---- */
 
-.pecul {
-    width: 1170px;
-    /* height: 101px; */
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-
+.peculiarity {
+    padding-bottom: 0;
 }
+
+
 
 .menu-peculiarity {
     display: flex;
@@ -257,17 +253,6 @@ img {
 /* -----peculiarty-end---- */
 
 /* -----tasks--- */
-
-.tasks {
-    width: 1170px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin: 0 auto;
-}
-
-.div-tasks {
-    padding: 14px 0 0;
-}
 
 .our-tasks {
     justify-content: center;
@@ -307,22 +292,6 @@ img {
 
 .team {
     background-color: #F5F4FA;
-    /* height: 460px; */
-    padding-right: 15px;
-    padding-left: 15px;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-}
-
-
-.div-team {
-    width: 1170px;
-    /* padding-left: 15px;
-    padding-right: 15px; */
-    margin: 0 auto;
-    padding-bottom: 94px;
-    padding-top: 94px;
 }
 
 .list-team {
@@ -387,25 +356,26 @@ img {
     /* height: 252px; */
     display: flex;
     align-items: center;
+    padding: 60px 0;
+}
 
-
+address {
+    font-style: normal;
+    margin-top: 20px;
 }
 
 .div-footer {
     width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
-    padding: 60px 0 60px;
     margin: 0 auto;
 }
 
-.menu-footer {
-    margin-top: 20px;
+.list-footer:not(:last-child) {
+    margin-bottom: 10px;
 }
 
-.list-footer:not(:last-child) {
-    margin: 10px;
-}
+
 
 .logo-footer {
     font-family: 'Raleway';
