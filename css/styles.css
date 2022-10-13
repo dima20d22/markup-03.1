@@ -66,7 +66,6 @@ section {
 .navi {
     display: flex;
     align-items: center;
-
 }
 
 .menu {
@@ -82,18 +81,9 @@ section {
 
 /* -------logo------ */
 
-.header-link {
-    display: flex;
-    align-items: center;
-    margin-left: auto;
-
-}
-
-
 
 .logo {
     margin-right: 92px;
-
 }
 
 .logo {
@@ -117,6 +107,12 @@ section {
 
 /* ----------Contact--------- */
 
+.header-link {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
 .menu-link {
     font-weight: 500;
     font-size: 14px;
@@ -135,15 +131,10 @@ section {
 }
 
 .link-header {
-    margin-right: 50px;
-}
-
-.link-header {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
     color: #757575;
 }
 
@@ -160,10 +151,8 @@ section {
 
 
 .hero {
-    /* height: 600px; */
     background: #2F303A;
     padding: 200px 0 280px;
-
 }
 
 .heroic {
@@ -177,8 +166,6 @@ section {
 
 .modal-btn {
     margin: 0 auto;
-
-
 }
 
 .hero-title {
@@ -221,8 +208,6 @@ section {
 .peculiarity {
     padding-bottom: 0;
 }
-
-
 
 .menu-peculiarity {
     display: flex;
@@ -294,12 +279,9 @@ section {
     background-color: #F5F4FA;
 }
 
-
-
 .list-team {
     flex-basis: calc(100%-120px)/4;
     margin: 0 auto;
-    /* border-style: outset; */
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -316,15 +298,7 @@ section {
 .menu-team {
     display: flex;
     flex-wrap: wrap;
-    /* margin-top: -30px;
-    margin-left: -30px; */
 }
-
-
-/* .img-team {
-    margin-top: 30px;
-    margin-left: 30px;
-} */
 
 .our-team {
     font-weight: 700;
@@ -347,9 +321,6 @@ section {
     letter-spacing: 0.03em;
     color: #212121;
 }
-
-
-
 
 
 .profession-team {
