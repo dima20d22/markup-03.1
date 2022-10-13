@@ -294,25 +294,37 @@ section {
     background-color: #F5F4FA;
 }
 
-.list-team {
 
-    /* flex-basis: calc((100%-1200px) / 4); */
+
+.list-team {
+    flex-basis: calc(100%-120px)/4;
+    margin: 0 auto;
+    /* border-style: outset; */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+.div-name {
+    padding-left: 0;
+    background-color: #FFFFFF;
+    padding: 30px 0;
+}
+
+.name-team {
+    margin-bottom: 10px;
+}
 
 .menu-team {
     display: flex;
     flex-wrap: wrap;
-    margin-top: -30px;
-    margin-left: -30px;
+    /* margin-top: -30px;
+    margin-left: -30px; */
 }
 
 
-
-.img-team {
+/* .img-team {
     margin-top: 30px;
     margin-left: 30px;
-}
+} */
 
 .our-team {
     font-weight: 700;
@@ -336,6 +348,10 @@ section {
     color: #212121;
 }
 
+
+
+
+
 .profession-team {
     font-weight: 400;
     font-size: 16px;
@@ -353,7 +369,6 @@ section {
 
 .footer {
     background-color: #2F303A;
-    /* height: 252px; */
     display: flex;
     align-items: center;
     padding: 60px 0;
