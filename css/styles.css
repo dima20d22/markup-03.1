@@ -350,13 +350,6 @@ address {
     margin-top: 20px;
 }
 
-.div-footer {
-    width: 1170px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
-
 .list-footer:not(:last-child) {
     margin-bottom: 10px;
 }

@@ -228,7 +228,20 @@ section {
 /* -----END MAIN---- */
 
 /* ----FOOTER----- */
-.footer-logo {
+
+.footer {
+    background-color: #2F303A;
+    display: flex;
+    align-items: center;
+    padding: 111px 0 60px;
+}
+
+address {
+    font-style: normal;
+    margin-top: 20px;
+}
+
+/* .footer-logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -244,16 +257,19 @@ section {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
-}
+} */
 
-.footer-mail-link {
+.footer-address-link {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.70;
     letter-spacing: 0.03em;
-    color: FFFFFF;
-    /* поменять цвет */
+    color: #FFFFFF;
+}
+
+.footer-list:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .footer-link {
@@ -262,8 +278,7 @@ section {
     font-size: 14px;
     line-height: 1.70;
     letter-spacing: 0.03em;
-    color: gba(255, 255, 255, 0.6);
-    /*  поменять цвет добавить букву -r- */
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-link:hover,
