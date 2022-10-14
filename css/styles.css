@@ -212,6 +212,13 @@ section {
 .menu-peculiarity {
     display: flex;
     flex-direction: row;
+
+}
+
+.peculiarity-menu {
+    width: 270px;
+    margin: 0 auto;
+    padding-right: 30px;
 }
 
 .list-peculiarity {
@@ -224,7 +231,7 @@ section {
 }
 
 .list-peculiarity {
-    margin: 10px;
+    margin: 10px 0;
 }
 
 .text-peculiarity {
