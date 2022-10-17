@@ -206,7 +206,6 @@ section {
 
 .img-list {
     flex-basis: calc(100%-240px)/9;
-    margin: 0 auto;
 }
 
 .name {
